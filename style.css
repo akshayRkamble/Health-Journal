@@ -1,0 +1,147 @@
+/* Custom styling for the Mental Health Journal app */
+
+/* Main container styling */
+.main .block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Header styling */
+h1 {
+    color: #1E88E5;
+    font-weight: 700;
+}
+
+h2 {
+    color: #0D47A1;
+    font-weight: 600;
+}
+
+h3 {
+    color: #1976D2;
+    font-weight: 500;
+}
+
+/* Entry box styling */
+.stTextArea textarea {
+    border-radius: 10px;
+    border: 1px solid #E0E0E0;
+    padding: 10px;
+}
+
+/* Button styling */
+.stButton button {
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: #1976D2;
+    transition: all 0.3s ease;
+}
+
+.stButton button:hover {
+    background-color: #1565C0;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Card-like styling for expanders */
+.streamlit-expander {
+    border-radius: 10px;
+    border: 1px solid #E0E0E0;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.streamlit-expander:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Quote styling for responses */
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    border-left: 5px solid #1976D2;
+    background-color: #E3F2FD;
+    border-radius: 0 5px 5px 0;
+}
+
+/* Progress bar customization */
+.stProgress > div > div {
+    background-color: #1976D2;
+}
+
+/* Sidebar styling */
+.css-1d391kg {
+    background-color: #F5F7FA;
+}
+
+/* Styling for metrics */
+.css-50ug3q {
+    font-size: 3em;
+    font-weight: 700;
+    color: #1976D2;
+}
+
+/* Make images have rounded corners */
+img {
+    border-radius: 10px;
+}
+
+/* Styling for the tabs */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 2rem;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 50px;
+    white-space: pre-wrap;
+    background-color: transparent;
+    border-radius: 5px 5px 0 0;
+    font-weight: 500;
+    color: #555;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #E3F2FD;
+    color: #1976D2;
+}
+
+/* Styling for select boxes */
+.stSelectbox label {
+    color: #555;
+    font-weight: 500;
+}
+
+/* Success message styling */
+.element-container .stAlert {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Date input styling */
+.stDateInput input {
+    border-radius: 5px;
+}
+
+/* Info box styling */
+.stInfo {
+    background-color: #E3F2FD;
+    border-left-color: #1976D2;
+    border-radius: 5px;
+}
+
+/* Error box styling */
+.stError {
+    border-radius: 5px;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+    .main .block-container {
+        padding: 1rem;
+    }
+    
+    .stTabs [data-baseweb="tab-list"] {
+        gap: 0.5rem;
+    }
+} 
